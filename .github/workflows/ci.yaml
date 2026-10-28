@@ -3,7 +3,7 @@ on:
   push: { branches: [main] }
   pull_request:
 env:
-  IMAGE: ghcr.io/${{ github.repository_owner }}/auth-app
+  IMAGE: ghcr.io/abaprogramm/auth-app
 jobs:
   build:
     runs-on: ubuntu-latest
